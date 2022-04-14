@@ -1553,6 +1553,7 @@ int main(){
 		}
 	
 	mainGameProcess: {
+		initMove(); 
 		stopTimer(); 
 		clearScreen(); 
 		initScreen(); 
@@ -1561,7 +1562,6 @@ int main(){
 		initScreen(); 
 		startTimer(); 
 		
-		initMove(); 
 		while(1){
 			// user
 			if(User_Pos + 2 * Move_Status_Buffer >= 20 && User_Pos + 2 * Move_Status_Buffer <= 284 && User_Start && Move_Status != 0) updateUserStart(); 
