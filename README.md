@@ -5,7 +5,7 @@ Please note that this repository is shared only for academic purposes. Any forms
 
 ---
 
-Great thanks to [Junhao Liao](https://github.com/junhaoliao) for all technical supports. Please support his project [iCtrl](https://github.com/junhaoliao/iCtrl) ifyou like :)
+Great thanks to [Junhao Liao](https://github.com/junhaoliao) for all technical supports. Please support his project [iCtrl](https://github.com/junhaoliao/iCtrl) if you like :)
 
 ---
 
