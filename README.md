@@ -5,6 +5,10 @@ Please note that this repository is shared only for academic purposes. Any forms
 
 ---
 
+Great thanks to [Junhao Liao](https://github.com/junhaoliao) for all technical and mental supports. 
+
+---
+
 Please use [CPUlator](https://cpulator.01xz.net/?sys=arm-de1soc) or a DE1-SoC board to run the code. 
 
 #### Controls: 
