@@ -1566,7 +1566,7 @@ int main(){
 			// user
 			if(User_Pos + 2 * Move_Status_Buffer >= 20 && User_Pos + 2 * Move_Status_Buffer <= 284 && User_Start && Move_Status != 0) updateUserStart(); 
 			else if(User_Pos + 2 * Move_Status_Buffer >= 20 && User_Pos + 2 * Move_Status_Buffer <= 284 && !User_Start && Move_Status != 0) updateUserMove(); 
-			else if(Move_Status == 0 && User_Stop) updateUserStop(); 
+			else if((Move_Status == 0 && User_Stop) || User_Pos + 2 * Move_Status_Buffer < 20 || User_Pos + 2 * Move_Status_Buffer > 284) updateUserStop(); 
 			
 			// enemy
 			if(Enemy_Start && Game_Time) updateEnemyStart(); 
